@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:showIn="@layout/activity_gameplay_screen"
+        tools:context="android.monopoly.cs414.androidmonopolygame.GameplayScreen"
+>
+
+
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyHouseSpinner" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/buyHouseButton" android:spinnerMode="dialog"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy House"
+            android:id="@+id/buyHouseButton" android:layout_below="@+id/buyHouseSpinner" android:layout_alignParentStart="true"
+            android:onClick="clickBuyHouse"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell House"
+            android:id="@+id/sellHouseButton" android:layout_alignTop="@+id/buyHouseButton" android:layout_alignParentEnd="true"
+            android:onClick="clickSellHouse"
+    />
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellHouseSpinner" android:layout_alignParentTop="true" android:layout_alignEnd="@+id/sellHouseButton"
+            android:layout_alignStart="@+id/sellHouseButton" android:spinnerMode="dialog"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buyHotelSpinner"
+            android:layout_below="@+id/buyHouseButton" android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/buyHouseButton" android:spinnerMode="dialog"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buy Hotel"
+            android:id="@+id/buyHotelButton" android:layout_below="@+id/buyHotelSpinner" android:layout_alignParentStart="true"
+            android:onClick="clickBuyHotel"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell Hotel"
+            android:id="@+id/sellHotelButton" android:layout_alignTop="@+id/buyHotelButton" android:layout_alignEnd="@+id/sellHouseButton"
+            android:onClick="clickSellHotel"
+    />
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellHotelSpinner"
+            android:layout_above="@+id/sellHotelButton" android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/sellHouseButton" android:spinnerMode="dialog"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mortgagePropertySpinner" android:layout_below="@+id/buyHotelButton" android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/buyHotelButton" android:spinnerMode="dialog"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mortgage"
+            android:id="@+id/mortgageButton" android:layout_below="@+id/mortgagePropertySpinner"
+            android:layout_alignParentStart="true"
+            android:onClick="clickMortgageProperty"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sell Property"
+            android:id="@+id/sellPropertyButton" android:layout_below="@+id/sellPropertySpinner"
+            android:layout_alignParentStart="true"
+            android:onClick="clickSellProperty"
+    />
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sellPropertySpinner"
+            android:spinnerMode="dialog" android:layout_below="@+id/mortgageButton"
+            android:layout_alignParentStart="true" android:layout_alignEnd="@+id/sellPropertyButton"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Board"
+            android:id="@+id/viewBoardButton" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"
+            android:layout_marginBottom="39dp"
+            android:onClick="clickViewMap"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll Dice"
+            android:id="@+id/rollDiceButton" android:layout_alignBottom="@+id/viewBoardButton" android:layout_alignParentStart="true"
+            android:onClick="clickRollDice"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/playerInfoText"
+            android:layout_above="@+id/viewBoardButton"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sellPropertyButton" android:layout_alignEnd="@+id/viewBoardButton"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unmortgage"
+            android:id="@+id/unmortgagePropertyButton" android:layout_alignTop="@+id/mortgageButton"
+            android:layout_alignEnd="@+id/sellHotelButton"
+            android:onClick="clickUnmortgageProperty"
+    />
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/unMortgagePropertySpinner" android:layout_alignBottom="@+id/mortgagePropertySpinner"
+            android:layout_alignParentEnd="true" android:layout_alignStart="@+id/unmortgagePropertyButton"
+            android:spinnerMode="dialog"/>
+</RelativeLayout>

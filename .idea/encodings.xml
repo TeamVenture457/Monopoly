@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/GameplayScreen.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/PlayerSelect.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/SelectProperty.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/SplashScreen.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Bank.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Board.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Colors.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Dice.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Game.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/GameController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/GameplayScreen.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Owner.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Player.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/PlayerSelect.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Property.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Railroad.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/SelectProperty.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Space.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/SpaceType.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/SplashScreen.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Street.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/SystemMessagesToPlayer.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/backEnd/Utility.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/venture/cs414/android/monopoly/frontEnd/ViewController.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/monopolyboard.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/monopolyboardnumbered.jpg" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_gameplay_screen.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_player_select.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_property.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_gameplay_screen.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_select_property.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
